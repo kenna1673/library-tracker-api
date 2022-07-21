@@ -77,6 +77,7 @@ public class BookServiceTest {
         List<Book> actualBooks = bookService.getAll();
         int expectedSize = 1;
         int actualSize = actualBooks.size();
+        //coment
         Assertions.assertEquals(expectedSize, actualSize);
     }
 
